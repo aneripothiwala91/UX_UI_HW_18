@@ -17,7 +17,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* align-items: flex-end; */
 }
 .reverse{
     flex-direction: row-reverse;
@@ -37,26 +36,7 @@ body{
 
 .line {
     border-left: 3px solid #F7941E;
-    /* height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0; */
-  }
-
-/* .rightcontent1{
-    padding-left: 50%;
-    flex: 1;
-    flex-basis: 400px;
 }
-
-.leftcontent1{
-    padding-right: 10%;
-    flex: 1;
-    flex-basis: 400px;
-} */
-
-
 
 p{
     display: inline-block;
@@ -91,10 +71,8 @@ p{
     }
 
 .navigation {
-    /* letter-spacing: 6.33143px; */
     justify-content: flex-end;
     }
-
 
 .navigation a {
     cursor: pointer;
@@ -114,46 +92,14 @@ p{
     right: 0px;
     top: 0px;
     background: rgba(253, 210, 68, 0.479);
-    /* mix-blend-mode: normal; */
     opacity: 0.22;
     }
-
-
-
-/* .line{
-    max-width:3px;
-    height: 200px;
-    left: 725px;
-    top: 232px;
-    background: #FDD344;
-    } */
-
-/* .image1{
-    width: 80%;
-    border: 1px solid #DCDCDC;
-    box-sizing: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 25px;
-    height: auto;
-    margin: 0 auto;
-    }
-     */
-
-/* .imagelogo{
-	width: 120px;
-    height: 30px;
-} */
-
 
 .button{
     display: inline-block;
     background-color: #FFC000;
     color: black;
     font-size: 20px;
-    /* height: 50px;
-    width: 40 px; 
-    margin-right: 1400px; */
-    /* margin: 4px 2px; */
     text-align: center;
     cursor: pointer;
     padding: 15px ;
@@ -168,8 +114,8 @@ p{
     font-weight: bold;
 }
 
-/* PROJECT styles */
 
+/* PROJECT styles */
 
 .website{
     margin-top: 70px;
@@ -187,17 +133,12 @@ p{
 .image1{
     width: 80%;
     border: 1px solid #DCDCDC;
-    /* box-sizing: border-box; */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 25px;
-    /* height: auto; */
     margin: 0 auto;
     }
 
-
 .leftcontent2{
-    /* width: 50%; */
-    
     margin-left: 30px;
     padding-left: 20px;
     flex: 1;
@@ -206,7 +147,6 @@ p{
     }
 
 .rightcontent2{
-    /* width: 50%; */
     margin-right: -100px;
     padding-left: 20px;
     flex: 1;
@@ -219,13 +159,7 @@ p{
     margin-top: 90px;
     margin-left: 20%;
     max-width: 60%;
-    
-        }
-
-/* .image-right{
-    width: 80%;
-    height: 260px;
-    } */
+    }
 
 
 /* Footer styles */
@@ -243,9 +177,6 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* text-align: center; */
-    /* font-size: 18px;
-    font-weight: bold; */
     }
 
 .footernavname {
@@ -280,30 +211,9 @@ p{
     margin-top: 30px;
     }
 
-/* .leftcontent2{
-	padding-left: 30px;
-    flex: 1;
-    flex-basis: 0%;
-    flex-basis: 400px;
-	}
 
-.rightcontent2{
-	flex: 1;
-    flex-basis: 0%;
-    flex-basis: 400px;
-    }
+/* mediaqueries */
 
-.image-right{
-	width: 450px;
-    height: 260px;
-    } */
-    
-    /* .circle-s{
-	background: #F7941E;
-border-radius: 30%;
-width: 100px;
-height: 100px;
-} */
 
 @media only screen and (max-width: 900px) {
 .reverse {
@@ -324,9 +234,10 @@ h2{
 .button {
     width: 30%;
     margin-left: 3%;
-    margin-top: 3%;}
+    margin-top: 3%;
 }
-    
+    }
+
 
 
     /* @media only screen and (max-width: 1000px) {
@@ -339,8 +250,8 @@ h2{
     } */
 
 
-   @media only screen and (max-width: 1200px){
-    
+@media only screen and (max-width: 1200px){
+
 .button {
     width: 30%;
     margin-left: 3%;
