@@ -170,6 +170,7 @@ p{
     justify-content: center;
     text-align: center;
     font-size: 36px;
+    margin-top: 2%;
     color: #FFC000;
     }
 
@@ -187,7 +188,8 @@ p{
     font-size: 18px;
     font-weight: bold;
 	margin-right:90px;
-	margin-left:40px;
+    margin-left:40px;
+    margin-top:5%;
     }
 
 .footernavname a{
@@ -198,8 +200,8 @@ p{
 #circle {
     background: #FFC000;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .footer1{
