@@ -218,27 +218,27 @@ p{
 
 
 @media only screen and (max-width: 900px) {
-.reverse {
-    flex-direction:row;
-}
-.text2{
-    margin-left: 0px;
-}
-
-.leftcontent h1{
-    margin-left: 0%;
-}
-
-.leftcontent h2{
-    margin-left: 0%;
-}
-
-.button {
-    width: 30%;
-    margin-left: 3%;
-    margin-top: 3%;
-}
+    .reverse {
+        flex-direction:row;
     }
+    .text2{
+        margin-left: 0px;
+    }
+
+    .leftcontent h1{
+        margin-left: 0%;
+    }
+
+    .leftcontent h2{
+        margin-left: 0%;
+    }
+
+    .button {
+        width: 30%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+}
 
 
 
@@ -254,9 +254,9 @@ p{
 
 @media only screen and (max-width: 1200px){
 
-.button {
-    width: 30%;
-    margin-left: 3%;
-    margin-top: 3%;
-}
+    .button {
+        width: 30%;
+        margin-left: 3%;
+        margin-top: 3%;
     }
+}
